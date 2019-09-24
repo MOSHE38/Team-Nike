@@ -1,54 +1,36 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>sign up</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="container">
-		<h2 class="signup-heading">WHAT'S YOUR WORTH?</h2>
-		<div class="form-container">
+
+	<div class="wrapper fadeInDown">
+		<h1>What's your worth</h1>
+		  <div id="formContent">
+			<!-- Tabs Titles -->
+			<h2 class="active"> Sign Up </h2>
+
+			
+
+			<!-- Login Form -->
 			<form>
-				<h3>Create Account</h3>
-				<input type="name" class="form-control name" name="name" placeholder="&#xf007; Name" id="name"><br>
-				<input type="email" class="form-control name" name="email" placeholder="&#xf0e0; Email" id="email"><br>
-				<input type="password" class="form-control name" name="password" placeholder="&#xf023; Password" id="password"><br>
-				<input type="password" class="form-control name" name="confirmpassword" placeholder="&#xf023; Confirm Password" id="confirmpassword"><br>
-				<input type="submit" name="signup" value="SIGN UP" id="signup"><br>
-				<label id="label1">Already have an account?&nbsp</label>
-				<a href="#" id="login">Login here</a>
-
-
+			  <input type="text" class="fadeIn first"  name="fullname" placeholder="Fullname" id="fullname"><br>
+				<input type="text" class="fadeIn second" name="email" placeholder="Email" id="email" required><br>
+				<input type="text" class="fadeIn second"  name="username" placeholder="Username" id="username"><br>
+				<input type="text" id="password" class="fadeIn third" name="password" placeholder="password" required>
+				<input type="text" class="fadeIn third" name="confirmpassword" placeholder="Confirm Password" id="confirmpassword"><br>
+				<input type="submit" class="fadeIn fourth" value="Sign Up">
 			</form>
-		</div>
-	</div>
-</body>
-=======
-<!DOCTYPE html>
-<html>
-<head>
-	<title>sign up</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<h2 class="signup-heading">WHAT'S YOUR WORTH?</h2>
-		<div class="form-container">
-			<form>
-				<h3>Create Account</h3>
-				<input type="name" class="form-control name" name="name" placeholder="&#xf007; Name" id="name"><br>
-				<input type="email" class="form-control name" name="email" placeholder="&#xf0e0; Email" id="email"><br>
-				<input type="password" class="form-control name" name="password" placeholder="&#xf023; Password" id="password"><br>
-				<input type="password" class="form-control name" name="confirmpassword" placeholder="&#xf023; Confirm Password" id="confirmpassword"><br>
-				<input type="submit" name="signup" value="SIGN UP" id="signup"><br>
-				<label id="label1">Already have an account?&nbsp</label>
-				<a href="#" id="login">Login here</a>
+			
 
-
-			</form>
-		</div>
-	</div>
+			<!-- Remind Passowrd -->
+			<div id="formFooter">
+			  <label id="label1">Already have an account?&nbsp</label>
+			  <a class="underlineHover" href="sign-in.html" id="login">Login here</a>
+			</div>
+		  </div>
+	</div>	
 </body>
->>>>>>> 4d7615e0c7cea99cad7f1780afa835d2597538e2
-</html>
+</html> 
